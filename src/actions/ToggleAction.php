@@ -56,7 +56,7 @@ class ToggleAction extends Action
             $attribute = \Yii::$app->request->post('attribute');
             $model = $this->findModel($this->modelClass, $id);
             $onValue = ModelHelper::getToggleValue($model, $attribute, RoundSwitchModule::SWITCH_KEY_ON);
-            $offValue = ModelHelper::getToggleValue($model, $attribute, RoundSwitchModule::SWITCH_KEY_OFF);
+            $offValue = 0;
             $model->{$attribute} = $model->{$attribute} == $onValue ? $offValue : $onValue;
             return $model->save(true, [$attribute]);
         }
