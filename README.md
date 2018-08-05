@@ -21,13 +21,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist nick-denry/yii2-round-switch-column
+php composer.phar require --prefer-dist kinkytail/yii2-round-switch-column
 ```
 
 or add
 
 ```
-"nick-denry/yii2-round-switch-column": "^0.1.2"
+"kinkytail/yii2-round-switch-column": "^0.1.2"
 ```
 
 to the require section of your `composer.json` file.
