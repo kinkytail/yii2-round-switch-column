@@ -1,5 +1,5 @@
 {
-    "name": "nick-denry/yii2-round-switch-column",
+    "name": "kinkytail/yii2-round-switch-column",
     "description": "Round switch ToggleColumn for Yii2 GridView",
     "keywords": [
         "yii2",
@@ -10,10 +10,10 @@
     ],
     "type": "yii2-extension",
     "license": "MIT",
-    "homepage": "https://github.com/nick-denry/yii2-round-switch-column",
+    "homepage": "https://github.com/kinkytail/yii2-round-switch-column",
     "support": {
-        "issues": "https://github.com/nick-denry/yii2-round-switch-column/issues",
-        "source": "https://github.com/nick-denry/yii2-round-switch-column"
+        "issues": "https://github.com/kinkytail/yii2-round-switch-column/issues",
+        "source": "https://github.com/kinkytail/yii2-round-switch-column"
     },
     "authors": [
         {
